@@ -3,7 +3,7 @@ from application import app, db, r
 from application.forms import LoginForm, SMS
 from application.models import Account, Phone
 from flask_login import login_user, current_user, logout_user, login_required
-from flask_mail import Message
+
 
 #creates defined tables
 db.create_all()
